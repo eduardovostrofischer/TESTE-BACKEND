@@ -18,9 +18,13 @@ O problema apresentado foi 3d bin packing com pesos. É um problema NP-Difícil,
 
 Instruções:
 Depois de ter instalado go e a biblioteca gorila mux.
+
 Adicione gedex/bp3d dentro de sua pasta github.com dentro de src em sua instalação go.
-Coloque APITeste.go dentro de src em sua instalação go.
+
+Coloque APITeste.go dentro de uma pasta APITeste src em sua instalação go.
+
 Compile e execute ApiTeste.go
+
 Recomendo teste com POSTMAN.
 
 Referências:
