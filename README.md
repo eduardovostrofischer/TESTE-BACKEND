@@ -12,8 +12,10 @@ Descrição da solução:
 O problema apresentado foi 3d bin packing com pesos. É um problema NP-Completo, logo soluções para ele envolvem complexidades de tempo maiores do que polinomiais. Assim ele se torna muito custoso mesmo para entradas pequenas. 
 
 Referências:
-https://github.com/gedex/bp3d Código de 3d-binpacking foi baseado neste porém com pequenas alterações como correções de pesos e variáveis adicionais para as caixas.
-https://github.com/bom-d-van/binpacking/blob/master/erick_dube_507-034.pdf
+https://github.com/gedex/bp3d. \n
+Código de 3d-binpacking foi baseado neste porém com pequenas alterações como correções de pesos e variáveis adicionais para as caixas.
+
+https://github.com/bom-d-van/binpacking/blob/master/erick_dube_507-034.pdf.
 O algoritmo é baseado nesse artigo, é um algoritmo de best fit, onde se procura o menor desperdício de volume possível.
 
 5 endpoints na api
