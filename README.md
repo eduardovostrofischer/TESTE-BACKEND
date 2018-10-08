@@ -5,9 +5,9 @@ Aqui o github do teste de back-end da empresa melhor envio.
 Todos os requisitos foram atendidos.
 
 Dependências:
-Instale Go em seu computador sudo 
+Instale Go em seu computador
 
-apt-get install golang-go.
+sudo apt-get install golang-go.
 
 Instale a biblioteca github.com/gorilla/mux 
 
