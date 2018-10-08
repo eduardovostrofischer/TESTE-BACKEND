@@ -8,20 +8,28 @@ Dependências:
 Além de ter GO instalado ao computador. sudo apt-get install golang-go
 a biblioteca github.com/gorilla/mux deve ser instalada.   go get -u github.com/gorilla/mux
 
-Descrição da solução:
+Descrição do problema:
 O problema apresentado foi 3d bin packing com pesos. É um problema NP-Completo, logo soluções para ele envolvem complexidades de tempo maiores do que polinomiais. Assim ele se torna muito custoso mesmo para entradas pequenas. 
 
+Instruções:
+Depois de ter instalado go e a biblioteca gorila mux.
+Descompacte gedex.tar.xy dentro de sua pasta github.com dentro de src em sua instalação go.
+Coloque APITeste.go dentro de src em sua instalação go.
+Compile e execute ApiTeste.go
+Recomendo teste com POSTMAN.
+
 Referências:
-https://github.com/gedex/bp3d. \n
+https://github.com/gedex/bp3d. 
 Código de 3d-binpacking foi baseado neste porém com pequenas alterações como correções de pesos e variáveis adicionais para as caixas.
 
 https://github.com/bom-d-van/binpacking/blob/master/erick_dube_507-034.pdf.
-O algoritmo é baseado nesse artigo, é um algoritmo de best fit, onde se procura o menor desperdício de volume possível.
+O algoritmo solução é baseado nesse artigo, é um algoritmo de best fit, onde se procura o menor desperdício de volume possível.
 
 5 endpoints na api
 
 getproducts     /api/products               GET
   Mostra todos produtos do carrinho
+// O programa ja inicia com 4 itens no carrinho
 
 getproduct      /api/products/{id}          GET
   Mostra um produto específico do carrinho
