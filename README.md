@@ -5,8 +5,13 @@ Aqui o github do teste de back-end da empresa melhor envio.
 Todos os requisitos foram atendidos.
 
 Dependências:
-Além de ter GO instalado ao computador. sudo apt-get install golang-go
-a biblioteca github.com/gorilla/mux deve ser instalada.   go get -u github.com/gorilla/mux
+Instale Go em seu computador sudo 
+
+apt-get install golang-go.
+
+Instale a biblioteca github.com/gorilla/mux 
+
+go get -u github.com/gorilla/mux.
 
 Descrição do problema:
 O problema apresentado foi 3d bin packing com pesos. É um problema NP-Difícil, logo soluções para ele envolvem complexidades de tempo maiores do que polinomiais. Assim ele se torna muito custoso mesmo para entradas pequenas. 
